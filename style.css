@@ -1,0 +1,113 @@
+* {   
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+  font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center; 
+  color: #003046; 
+  background-color: aliceblue; 
+}
+
+header {
+  background-color:  darkmagenta;
+  color: white;
+  text-align: center; 
+  
+}
+
+main {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 20%;
+  margin-left: 20%;
+  text-align: center; 
+}
+
+p {
+  font-size: 1.2em;
+  text-align: left; 
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+h1 {
+  font-size: 2.2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+h2 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#intro-text {
+  font-size: 1.4em;
+  text-align: center; 
+  color:  darkturquoise;
+}
+
+#main-img  {   
+  display: block;      
+  width: 25%;          
+  height: auto;        
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color:  darkblue;
+  border-width: 8px;
+  border-radius: 20%;
+}
+
+.port-img {    
+  border-radius: 10%;
+  max-height: 20em; 
+}
+
+ul {
+  list-style-type: none;
+  padding: 1em;
+  background-color: #003046;
+  overflow: hidden;
+}
+
+li {
+  display: inline;
+}
+
+li a {  
+  color: white;
+  text-decoration: none;
+  padding: 1em;
+  font-size: 1.3em;
+}
+
+li a:hover {
+  background-color: darkblue;
+}
+
+img {
+  display: block;      
+  width: 90%;          
+  height: auto;        
+  margin-left: auto;
+  margin-right: auto;
+  
+  border-style: solid;
+  border-color:  darkblue;
+  border-width: 8px;
+  border-radius: 5px;
+}
+
+.flex-container {      
+  display: flex;       
+  flex-direction: row; 
+  flex-wrap: nowrap;   
+} 
+
+.flex-item {           
+  flex-basis: 100%;    
+  margin: 1%;          
+}
